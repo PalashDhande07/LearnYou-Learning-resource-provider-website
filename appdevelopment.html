@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/tailus.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+  
+    <style>
+        body {
+            font-family : Urbanist, sans-serif;
+            @apply bg-white dark:bg-gray-900
+        }
+
+        .navbar-active .hamburger div:first-child {
+            @apply rotate-45 translate-y-1.5;
+        }
+        .navbar-active .hamburger div:last-child {
+            @apply -rotate-45 -translate-y-1;
+        }
+        .navbar-active div:first-child div:first-child div:last-child{
+            @apply block lg:flex
+        }
+    </style>
+</head>
+
+    <body class="bg-white dark:bg-gray-900" style="margin-left: 20px; margin-right: 20px;">
+        <body class="bg-white dark:bg-gray-900">
+          <header class="text-gray-600 body-font" >
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" >
+              <a class="flex title-font font-medium items-center text-gray-200 mb-4 md:mb-0">
+             
+                
+                </svg>
+                <span class="ml-3 text-xl text-gray-200" style="font-size: 39px;">LearnYou</span>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center" >
+                <a class="mr-5 hover:text-gray-500 text-gray-200" href="Home.html">Home</a>
+                <a class="mr-5 hover:text-gray-500 text-gray-200" href="blog.html">Blog</a>
+                <a class="mr-5 hover:text-gray-500 text-gray-200" href="about.html">About Us</a>
+                <a class="mr-5 hover:text-gray-500 text-gray-200" href="contact.html">Contact Us</a>
+              </nav>
+              
+            </div>
+          </header>
+        <hr>
+        
+
+        <div class="container my-24 mx-auto md:px-6">
+          <!-- Section: Design Block -->
+          <section class="mb-32 text-center md:text-left">
+            <h2 class="mb-12 text-center text-3xl font-bold " style="color: white;">App Development Roadmap</h2>
+        
+            <div class="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
+              <div class="mb-6 md:mb-0">
+                <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                  data-te-ripple-init data-te-ripple-color="light">
+                  <img src="android.jpg" class="w-full" alt="Louvre" />
+                  <a href="#!">
+                    <div
+                      class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                    </div>
+                  </a>
+                </div>
+              </div>
+        
+              <div>
+                <h3 class="mb-3 text-2xl font-bold"  style="color: white;">Become an Android Developer</h3>
+                <div
+                  class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 md:justify-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-2 h-5 w-5">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
+                  </svg>
+                 
+                </div>
+              
+                <p class="text-neutral-500 dark:text-neutral-300">
+                  There are multiple ways to develop applications for Android; you can go down the path of hybrid application development where Flutter, React-Native, or NativeScript are the most common contenders. Flutter uses Dart, whereas React Native and Native Script rely on JavaScript. Answering the question of hybrid vs native is out of the scope of this roadmap. This roadmap is focused on native Android app development, but if you are interested in learning any hybrid framework, my personal preference is React-Native and I would recommend you check out the Frontend Developer Roadmap.
+                </p>
+              </div>
+            </div>
+        
+            <div class="mb-12 grid items-center gap-x-6 md:grid-cols-2 xl:gap-x-12">
+              <div class="mb-6 md:order-2 md:mb-0">
+                <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                  data-te-ripple-init data-te-ripple-color="light">
+                  <img src="ios.jpg" class="w-full" alt="Louvre" />
+                  <a href="#!">
+                    <div
+                      class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                    </div>
+                  </a>
+                </div>
+              </div>
+        
+              <div class="md:order-1">
+                <h3 class="mb-3 text-2xl font-bold"  style="color: white;">Become an IOS Developer</h3>
+                <div
+                  class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400 md:justify-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="mr-2 h-4 w-4">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
+                  </svg>
+                
+                </div>
+               
+                <p class="text-neutral-500 dark:text-neutral-300" >
+                  Familiarise the Xcode tool. <br>
+                  Learn swift fundamentals from docs and Practice each thing in Playground. <br>
+                  Learn to create a simple project, add a launch screen, and simple UI Components with the storyboard. <br>
+                  Add Functions to UI Components, Connect UI to code. <br>
+                  Learn types of navigation inside the app, and create multiple screen apps from there. <br>
+                  Try creating a simple End to End Static iOS App using all UIComponents in the storyboard. Try passing data between controllers. <br>
+                  Now learn to make it dynamic by trying out API Calls. Lots of open source api calls are available for learning. (News, User, Images) <br>
+                  While learning API, concentrate on threads and optimised way of handling calls. <br>
+                  Understand Architecture and clean code practices and try to adapt them in early stage itself. <br>
+                  Learn CoreData for Database, practice by storing simple data app. <br><br>
+                  Go with Firebase once you get comfortable over the application, try making simple real-time applications. <br>
+                  Learn to use Appstore connect. get yourself an Apple Developer id. <br>
+                  Write simple Unit Test cases and then UI. <br>
+                  Try using CocoaPods and SPM in application. <br>
+                  Understand Plist, Keychain, Certificates, Developer tools. <br>
+                  Learn to deploy a app to Appstore and give a TestFlight release. <br>
+                </p>
+              </div>
+            </div>
+            <hr>
+            <div class="container my-24 mx-auto md:px-6">
+              <!-- Section: Design Block -->
+              <section class="mb-32 text-center">
+                <h2 class="mb-12 text-center text-3xl font-bold" style="color: white; font-size: 40px;">What to Learn</h2>
+            
+                <div class="grid gap-6 lg:grid-cols-3 xl:gap-x-12">
+                  <div class="mb-6 lg:mb-0">
+                    <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                      data-te-ripple-init data-te-ripple-color="light">
+                      <img src="https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png" class="w-full" alt="Louvre" />
+                      <a href="#!">
+                        <div
+                          class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                        </div>
+                      </a>
+                    </div>
+            
+                    <h5 class="mb-3 text-lg font-bold" style="color: white;">Java</h5>
+                    <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="mr-2 h-5 w-5">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
+                      </svg>
+                      
+                    </div>
+                    <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                     
+                    </p>
+                    <p class="text-neutral-500 dark:text-neutral-300">
+                     Links: <br><br>
+                     <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q" style="text-decoration: underline;">Java Tutorials For Beginners In Hindi</a><br><br>
+                     <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop" style="text-decoration: underline;">ava Complete Course | Placement Series</a><br><br>
+                     <a href="https://www.coursera.org/specializations/java-programming" style="text-decoration: underline;">Java Programming and Software Engineering Fundamentals Specialization</a><br><br>
+                     <a href="https://www.youtube.com/playlist?list=PL9ooVrP1hQOEe9EN119lMdwcBxcrBI1D3" style="text-decoration: underline;">Java Full Course - 2023 | Java Tutorial for Beginners</a>
+                     
+                    </p>
+                  </div>
+                  <div class="mb-6 lg:mb-0">
+                    <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                      data-te-ripple-init data-te-ripple-color="light">
+                      <img src="https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png" class="w-full" alt="Louvre" />
+                      <a href="#!">
+                        <div
+                          class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                        </div>
+                      </a>
+                    </div>
+            
+                    <h5 class="mb-3 text-lg font-bold" style="color: white;">Kotlin</h5>
+                    <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="mr-2 h-4 w-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
+                      </svg>
+                    
+                    </div>
+                    <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                     
+                    </p>
+                    <p class="text-neutral-500 dark:text-neutral-300">
+                      Links: <br><br>
+                     <a href="https://www.youtube.com/playlist?list=PLsyeobzWxl7rooJFZhc3qPLwVROovGCfh" style="text-decoration: underline;">Kotlin Tutorial</a><br><br>
+                     <a href="https://youtu.be/EExSSotojVI?si=6Bi71qV-f_OGB4ig" style="text-decoration: underline;">Learn Kotlin Programming – Full Course for Beginners</a><br><br>
+                     <a href="https://www.coursera.org/learn/kotlin-for-java-developers" style="text-decoration: underline;">Kotlin for Java Developers</a><br><br>
+                     <a href="https://www.youtube.com/playlist?list=PLRKyZvuMYSIMW3-rSOGCkPlO1z_IYJy3G" style="text-decoration: underline;">Kotlin Beginner Tutorials Hindi | Complete Series</a>
+                    </p>
+                  </div>
+                 
+            
+                  <div class="mb-0">
+                    <div>
+                      <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                        data-te-ripple-init data-te-ripple-color="light">
+                        <img src="https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" class="w-full" alt="Louvre" style="width: 350px; height: 300px;margin: auto;" />
+                        <a href="#!">
+                          <div
+                            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                          </div>
+                        </a>
+                      </div>
+            
+                      <h5 class="mb-3 text-lg font-bold" style="color: white;">React Native</h5>
+                      <div class="mb-3 flex items-center justify-center text-sm font-medium text-yellow-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                          stroke="currentColor" class="mr-2 h-5 w-5">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                        </svg>
+                        
+                      </div>
+                      <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                       
+                      </p>
+                      <p class="text-neutral-500 dark:text-neutral-300">
+                        Links: <br><br>
+                        <a href="https://www.youtube.com/playlist?list=PL8p2I9GklV468O2wk-n8Q1KmtMhnHHj4C" style="text-decoration: underline;">React Native Tutorial in Hindi</a><br><br>
+                        <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9ixPU-QkScoRBVxtPPzVjrQ" style="text-decoration: underline;">React Native Tutorial for Beginners</a><br><br>
+                        <a href="https://www.coursera.org/learn/react-native-course-ar" style="text-decoration: underline;">React Native</a><br><br>
+                     
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Section: Design Block -->
+            </div>
+   
+            <div class="container my-24 mx-auto md:px-6">
+              <!-- Section: Design Block -->
+              <section class="mb-32 text-center">
+               
+            
+                <div class="grid gap-6 lg:grid-cols-3 xl:gap-x-12">
+                  <div class="mb-6 lg:mb-0">
+                    <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                      data-te-ripple-init data-te-ripple-color="light">
+                      <img src="http://www.sic-sales.de/wp-content/uploads/2016/04/Swift_logo.svg.png" class="w-full" alt="Louvre" style="width: 350px; height: 300px; margin: auto;"/>
+                      <a href="#!">
+                        <div
+                          class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                        </div>
+                      </a>
+                    </div>
+            
+                    <h5 class="mb-3 text-lg font-bold" style="color: white;">Swift</h5>
+                    <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="mr-2 h-5 w-5">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
+                      </svg>
+                     
+                    </div>
+                    <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                      
+                    </p>
+                    <p class="text-neutral-500 dark:text-neutral-300">
+                      Links: <br><br>
+                      <a href="https://www.youtube.com/playlist?list=PL5PR3UyfTWvfacnfUsvNcxIiKIgidNRoW" style="text-decoration: underline;">Swift 5 for Beginners (2022)</a><br><br>
+                      <a href="https://www.coursera.org/specializations/javascript-beginner" style="text-decoration: underline;">Swift Programming Tutorial – Full Course for Beginners</a><br><br>
+                      <a href="https://www.coursera.org/specializations/swift-5-ios-app-developer" style="text-decoration: underline;">Swift 5 iOS Application Developer Specialization</a><br><br>
+                      <a href="https://www.coursera.org/specializations/app-development" style="text-decoration: underline;">iOS App Development with Swift Specialization</a>
+                    </p>
+                  </div>
+            
+                  <div class="mb-6 lg:mb-0">
+                    <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                      data-te-ripple-init data-te-ripple-color="light">
+                      <img src="https://www.progclasses.com/img/datastructure.png" class="w-full" alt="Louvre" />
+                      <a href="#!">
+                        <div
+                          class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                        </div>
+                      </a>
+                    </div>
+            
+                    <h5 class="mb-3 text-lg font-bold" style="color: white;">Data Structures and Algorithms</h5>
+                    <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor" class="mr-2 h-4 w-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
+                      </svg>
+                      
+                    </div>
+                    <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                     
+                    </p>
+                    <p class="text-neutral-500 dark:text-neutral-300">
+                      <Links:br><br></Links:br>
+                      <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi" style="text-decoration: underline;">Data Structures and Algorithms Course in Hindi</a><br><br>
+      <a href="https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU" style="text-decoration: underline;">Data Structures and Algorithms</a><br><br>
+      <a href="https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA" style="text-decoration: underline;">Complete C++ Placement DSA Course</a><br><br>
+      <a href="https://www.coursera.org/specializations/data-structures-algorithms" style="text-decoration: underline;">Data Structures and Algorithms Specialization</a><br><br>
+      <a href="https://www.coursera.org/specializations/algorithms" style="text-decoration: underline;">Algorithms Specialization</a><br><br>
+      <a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" style="text-decoration: underline;">Data Structures using C++</a>
+                    </p>
+                  </div>
+            
+                  <div class="mb-0">
+                    <div>
+                      <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                        data-te-ripple-init data-te-ripple-color="light">
+                        <img src="https://miro.medium.com/max/1000/1*ilC2Aqp5sZd1wi0CopD1Hw.png" class="w-full" alt="Louvre" style="width: 350px; height: 300px; margin:auto;"/>
+                        <a href="#!">
+                          <div
+                            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                          </div>
+                        </a>
+                      </div>
+            
+                      <h5 class="mb-3 text-lg font-bold" style="color: white;" >flutter</h5>
+                      <div class="mb-3 flex items-center justify-center text-sm font-medium text-yellow-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                          stroke="currentColor" class="mr-2 h-5 w-5">
+                          <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+                        </svg>
+                        
+                      </div>
+                      <p class="mb-6 text-neutral-500 dark:text-neutral-300">
+                       
+                      </p>
+                      <p class="text-neutral-500 dark:text-neutral-300">
+                        Links: <br><br>
+                     <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ" style="text-decoration: underline;">Flutter Tutorial for Beginners</a><br><br>
+                     <a href="https://www.youtube.com/playlist?list=PLjVLYmrlmjGfGLShoW0vVX_tcyT8u1Y3E" style="text-decoration: underline;">Flutter Complete Tutorial in Hindi (Beginner to Advanced Level)</a><br><br>
+                     <a href="https://www.youtube.com/watch?v=VPvVD8t02U8" style="text-decoration: underline;">Flutter Course for Beginners </a>
+                     
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+          
+        
+              
+          </section>
+          <!-- Section: Design Block -->
+        </div><hr>
+        <h1 class="mb-4 text-3xl font-bold"  style="font-size: 30px; color: white;  margin: auto; margin-top: 40px;">
+          YouTube Playlists Links :
+         </h1>
+         <div class="w-96" style="color: white; margin: auto;" style="text-decoration: underline;">
+         
+           <a
+             href="https://www.youtube.com/playlist?list=PLu0W_9lII9aiL0kysYlfSOUgY5rNlOhUd"
+             class="block w-full cursor-pointer rounded-lg p-4 transition duration-500 hover:bg-neutral-100 hover:text-neutral-500 focus:bg-neutral-100 focus:text-neutral-500 focus:ring-0 dark:hover:bg-neutral-600 dark:hover:text-neutral-200 dark:focus:bg-neutral-600 dark:focus:text-neutral-200">
+             Android Development Tutorials in Hindi
+           </a>
+           <a
+             href="https://www.youtube.com/playlist?list=PLUcsbZa0qzu3Mri2tL1FzZy-5SX75UJfb"
+             class="block w-full cursor-pointer rounded-lg p-4 transition duration-500 hover:bg-neutral-100 hover:text-neutral-500 focus:bg-neutral-100 focus:text-neutral-500 focus:ring-0 dark:hover:bg-neutral-600 dark:hover:text-neutral-200 dark:focus:bg-neutral-600 dark:focus:text-neutral-200">
+             
+       
+       
+             Android Development Tutorial for Beginners
+           </a>
+           <a
+             href="https://www.youtube.com/watch?v=mXjZQX3UzOs"
+             class="block w-full cursor-pointer rounded-lg p-4 transition duration-500 hover:bg-neutral-100 hover:text-neutral-500 focus:bg-neutral-100 focus:text-neutral-500 focus:ring-0 dark:hover:bg-neutral-600 dark:hover:text-neutral-200 dark:focus:bg-neutral-600 dark:focus:text-neutral-200">
+             Android Development Tutorial For Beginners In Hindi (With Notes)
+           </a>
+           <a
+             href="https://www.youtube.com/watch?v=fis26HvvDII"
+             class="block w-full cursor-pointer rounded-lg p-4 transition duration-500 hover:bg-neutral-100 hover:text-neutral-500 focus:bg-neutral-100 focus:text-neutral-500 focus:ring-0 dark:hover:bg-neutral-600 dark:hover:text-neutral-200 dark:focus:bg-neutral-600 dark:focus:text-neutral-200">
+             Android Development for Beginners - Full Course
+           </a>
+           <a
+             href="https://www.youtube.com/playlist?list=PLjVLYmrlmjGdDps6HAwOOVoAtBPAgIOXL"
+             class="block w-full cursor-pointer rounded-lg p-4 transition duration-500 hover:bg-neutral-100 hover:text-neutral-500 focus:bg-neutral-100 focus:text-neutral-500 focus:ring-0 dark:hover:bg-neutral-600 dark:hover:text-neutral-200 dark:focus:bg-neutral-600 dark:focus:text-neutral-200">
+             
+       
+             Android 📱App Development Course <br>(Beginner to Advanced) 
+           </a>
+           
+         </div>
+          <h1 class="mb-4 text-3xl font-bold"  style="font-size: 30px; color: white;  margin: auto;">
+       Certification Courses : 
+         </h1>
+         <div class="w-96" style="color: white; margin: auto;" style="text-decoration: underline;">
+         
+           <a
+             href="https://www.coursera.org/professional-certificates/meta-android-developer"
+             class="block w-full cursor-pointer rounded-lg p-4 transition duration-500 hover:bg-neutral-100 hover:text-neutral-500 focus:bg-neutral-100 focus:text-neutral-500 focus:ring-0 dark:hover:bg-neutral-600 dark:hover:text-neutral-200 dark:focus:bg-neutral-600 dark:focus:text-neutral-200">
+             Meta Android Developer Professional Certificate
+          
+           </a>
+           <a
+             href="https://www.coursera.org/professional-certificates/meta-ios-developer"
+             class="block w-full cursor-pointer rounded-lg p-4 transition duration-500 hover:bg-neutral-100 hover:text-neutral-500 focus:bg-neutral-100 focus:text-neutral-500 focus:ring-0 dark:hover:bg-neutral-600 dark:hover:text-neutral-200 dark:focus:bg-neutral-600 dark:focus:text-neutral-200">
+             Meta iOS Developer Professional Certificate
+           </a>
+           
+           <a
+             href="https://www.edx.org/learn/react-native/harvard-university-cs50-s-mobile-app-development-with-react-native?index=product&queryID=ee6e84de20305e7847d2e19bb7aebe20&position=1&results_level=first-level-results&term=app+development&objectID=course-98955fca-5874-45a9-b2d5-278e6694c6ed&campaign=CS50%27s+Mobile+App+Development+with+React+Native&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch"
+             class="block w-full cursor-pointer rounded-lg p-4 transition duration-500 hover:bg-neutral-100 hover:text-neutral-500 focus:bg-neutral-100 focus:text-neutral-500 focus:ring-0 dark:hover:bg-neutral-600 dark:hover:text-neutral-200 dark:focus:bg-neutral-600 dark:focus:text-neutral-200">
+             Harvard University: CS50's Mobile App Development with React Native
+           </a>
+           
+         </div>
+         
+        
+        <hr>
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <hr>
+              </svg>
+              <span class="ml-3 text-xl" style="color: white; font-size: 45px ; padding-bottom: 33px;">LearnYou</span>
+
+            </a>
+            <p class="mt-2 text-sm text-gray-500">Learning for better future</p>
+          </div>
+          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center" >
+            <div class="lg:w-1/4 md:w-1/2 w-4 px-4" style="width: 290px; ">
+              <h2 class="title-font font-medium text-gray-300 tracking-widest text-sm mb-3" >Blogs</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Blockchain </a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Machine Learning</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Software Engineering</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Artificial Intelligence</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4" style="width: 290px;>
+              <h2 class="title-font font-medium text-gray-300 tracking-widest text-sm mb-3" >Links</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Placement Preparation</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Java</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">C++</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">HTML, CSS and JavaScript</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+             
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-100">
+          <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p class="text-gray-500 text-sm text-center sm:text-left">LearnYou
+              <pclass="text-gray-600 ml-1" target="_blank">- Learning for better future
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+             
+            </span>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.tailwindcss.com"></script> 
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+</body>
+</html>
